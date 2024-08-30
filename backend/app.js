@@ -47,7 +47,7 @@ app.use((error, req, res, next) => {
   res.json({ message: error.message || 'An unknown error occurred!' });
 });
 mongoose
-  .connect(`mongodb+srv://brian:tUz6yIsZVBXqOUoY@cluster0.rfbilhz.mongodb.net/mern?retryWrites=true&w=majority&appName=Cluster0`)
+  .connect(`mongodb+srv://xxxx:txxxxx@cluster0.rfbilhz.mongodb.net/mern?retryWrites=true&w=majority&appName=Cluster0`)
   .then(() => {
     app.listen(5000);
   })
